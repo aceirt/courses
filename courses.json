@@ -1,8 +1,16 @@
 {
-  "version": "4.0.0",
-  "updatedAt": "2026-09-20",
+  "version": "4.1.0",
+  "updatedAt": "2026-09-25",
   "totalCourses": 147,
-  "baseUrl": "https://courses.aceirt.us",
-  "deliveryMethod": "client-side-zip",
-  "note": "PLACEHOLDER - full content at /workspace/scratch/courses_v4.json"
+  "note": "Full data in catalog/ bundle files. Fetch catalog/{bundle}.json for CDN URLs.",
+  "catalogBase": "https://courses.aceirt.us/catalog/",
+  "bundles": [
+    {"slug":"admin-skills","title":"Administrative Skills","count":12,"productId":"6ac27ec6-eaa7-4bf9-a7a7-5c29bfe8e348","categoryId":"834539d5-5d18-45df-8530-93438c52431f","ghlTrack":"Professional Development Academy"},
+    {"slug":"career-dev","title":"Career Development","count":18,"productId":"6ac27ec6-eaa7-4bf9-a7a7-5c29bfe8e348","categoryId":"6f6ccbea-aa04-4dde-879c-97bbea7bd164","ghlTrack":"Professional Development Academy"},
+    {"slug":"personal-dev","title":"Personal Development","count":30,"productId":"6ac27ec6-eaa7-4bf9-a7a7-5c29bfe8e348","categoryId":"1995f719-0539-4291-b1e7-7093e5648924","ghlTrack":"Professional Development Academy"},
+    {"slug":"sales-marketing","title":"Sales & Marketing","count":25,"productId":"4f007ea7-32c2-4dba-9861-b6a7096c59f1","categoryId":"8dbf9165-a998-4899-9ec2-6af8725e2adc","ghlTrack":"Sales, Marketing & Business Growth"},
+    {"slug":"supervisors-managers","title":"Supervisors & Managers","count":19,"productId":"f8d5b938-0ae4-496d-a419-377b13d59036","categoryId":"00a73389-4d0c-4b62-a8da-3deeacf10bd5","ghlTrack":"Leadership & Management Institute"},
+    {"slug":"human-resources","title":"Human Resources","count":24,"productId":"8eb45bc3-e8ef-4a82-a20b-42b92c1dfab5","categoryId":"c559d9e1-1691-40bb-9a55-32e0492283b8","ghlTrack":"HR & Workplace Excellence Center"},
+    {"slug":"workplace-essentials","title":"Workplace Essentials","count":19,"productId":"8eb45bc3-e8ef-4a82-a20b-42b92c1dfab5","categoryId":"2cd8ade3-081c-4f92-b212-1b6a94b5e66c","ghlTrack":"HR & Workplace Excellence Center"}
+  ]
 }
